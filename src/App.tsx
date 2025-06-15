@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import { Button } from "@/components/ui/button"
+
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -16,11 +18,16 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>cursorshadcn</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+
+        <div className="flex min-h-svh flex-col items-center justify-center">
+          <Button>Click me</Button>
+        </div>
+
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
