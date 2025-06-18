@@ -14,8 +14,9 @@ function App() {
     <ThemeProvider defaultTheme="dark" storageKey="theme">
 
       <div className="flex flex-col items-center justify-center space-y-4 max-w-[300px] mx-auto">
-        <div className="bg-color-primary w-full">
-          <div className="relative top-4 right-4 z-50">
+        <div className="flex flex-row w-[300px] h-[36px] justify-between items-center">
+          <div>Todo</div>
+          <div className="z-50">
             <ModeToggle />
           </div>
         </div>
